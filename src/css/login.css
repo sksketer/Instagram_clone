@@ -37,6 +37,7 @@
     padding: 10px 12px;
     border: none;
     box-shadow: 0px 0px 2px gray;
+    border-radius: 6px;
 }
 #email:focus, #password:focus {
     outline: none;
@@ -55,4 +56,47 @@
     border: none; outline: none;
     cursor: pointer;
 }
+#login-link {
+    margin: 18px 0px;
+    align-items: center;
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+    background: conic-gradient(from 0deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+#forgotPassword {
+    font-size: small;
+    text-decoration: none;
+    color: rgb(33, 88, 70);
+}
 
+.signup {
+    padding: 32px 52px;
+    margin:12px 22px;
+    box-shadow: 0px 0px 2px gray;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+.signup p span {
+    font-size: small;
+}
+.signup p a {
+    color: rgb(0, 143, 199);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
